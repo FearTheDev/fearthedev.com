@@ -21,8 +21,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png" />
 
-  <link rel="stylesheet" href="assets/css/style.css" />
-
+  
+  
+  <link rel="stylesheet" href="assets/css/style.css" media="screen" />
+  <link rel="stylesheet" href="assets/css/youtube.css" media="screen" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,Roboto+Slab:400,700,300&display=swap" rel="stylesheet">
+  <script src="/assets/js/lazy-yt.js" crossorigin="anonymous" defer async></script>
   <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous" defer async></script>
 </head>
 
@@ -35,7 +39,7 @@
       <h3>React | Node | Javascript | Python</h3>
     </div>
     <div class="header-image">
-      <img src="assets/images/oct-2022_large.webp" width="200" height="200" alt="Johnathan Shoff" />
+      <img src="assets/images/oct-2022_medium.webp" width="200" height="200" alt="Johnathan Shoff" />
     </div>
     
   </header>
@@ -93,37 +97,37 @@
               <a href="https://www.credly.com/badges/7362d504-3ea4-4497-b63d-293738d9f1a1"
                 target="_blank" rel="noopener noreferrer">
                 <div class="certification-icon">
-                <img src="assets/images/comptia-a-plus_small.webp" alt="Comptia A+ Certification" />
+                <img src="assets/images/comptia-a-plus_small.webp" height="100" width="100" alt="Comptia A+ Certification" />
                 CompTIA A+</div></a>
   
                 <a href="https://www.credly.com/badges/c7f85ef0-bf90-4327-ac2c-fd785b3be0b7"
                 target="_blank" rel="noopener noreferrer">
                 <div class="certification-icon">
-                <img src="assets/images/comptia-server-plus_small.webp" alt="Comptia Server+ Certification" />
+                <img src="assets/images/comptia-server-plus_small.webp" height="100" width="100" alt="Comptia Server+ Certification" />
                 CompTIA Server+</div></a>
   
                 <a href="https://www.credly.com/badges/85b697eb-de1f-446a-b19d-306c12e54a21"
                 target="_blank" rel="noopener noreferrer">
                 <div class="certification-icon">
-                <img src="assets/images/mta-server_small.webp" alt="MTA Windows Server Administration Fundamentals" />
+                <img src="assets/images/mta-server_small.webp" height="100" width="100" alt="MTA Windows Server Administration Fundamentals" />
                 MTA Server</div></a>
   
                 <a href="https://www.credly.com/badges/44273004-6d8d-46d2-9225-0d5a29fce0cc"
                 target="_blank" rel="noopener noreferrer">
                 <div class="certification-icon">
-                <img src="assets/images/mta-security_small.webp" alt="MTA Security Fundamentals" />
+                <img src="assets/images/mta-security_small.webp" height="100" width="100" alt="MTA Security Fundamentals" />
                 MTA Security</div></a>
   
                 <a href="https://www.credly.com/badges/f090e69b-3836-4bad-837e-a3e0a3002395"
                 target="_blank" rel="noopener noreferrer">
                 <div class="certification-icon">
-                <img src="assets/images/pcep_small.webp" alt="Python Institute Entry Level Python Programmer" />
+                <img src="assets/images/pcep_small.webp" height="100" width="100" alt="Python Institute Entry Level Python Programmer" />
                 Python Programmer</div></a>
   
                 <a href="http://lpi.org/v/LPI000497570/lwmegkgv9x"
                 target="_blank" rel="noopener noreferrer">
                 <div class="certification-icon">
-                <img src="assets/images/lpi-essentials_small.webp" alt="Linux Professional Institute Linux Essentials" />
+                <img src="assets/images/lpi-essentials_small.webp" height="100" width="100" alt="Linux Professional Institute Linux Essentials" />
                 LPI Linux Essentials</div></a>
   
                 <a href="https://my.ine.com/certificate/4d7e5320-4b9c-411a-afdd-283edc678924"
@@ -144,17 +148,18 @@
               <div class="project-media">
                 <img src="/assets/images/ceis101-final-project.webp" width="940" height="788" alt="Arduino Home Security System" />
                 <div class="project-videos">
-                  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tE8v5E6R6xQ?controls=0"
-                    title="CEIS101 Project" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4VumJ5ifu4A?controls=0"
-                    title="CEIS101 Project Final" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                </div>
-              </div>
 
+                  <div class="lazy-yt-wrapper">
+                    <div class="lazyYT" data-embed="tE8v5E6R6xQ" data-title="Home Security (IoT) Project - Automated Light">
+                      <div class="play-button"></div>
+                    </div>
+                  </div>
+                  <div class="lazy-yt-wrapper">
+                    <div class="lazyYT" data-embed="4VumJ5ifu4A" data-title="Home Security (IoT) Project- Motion Detection">
+                      <div class="play-button"></div>
+                    </div>
+                  </div>
+              </div>
 
               <div class="project-content-info">
                 <span class="pill">Engineering & Programming</span>
